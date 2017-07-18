@@ -1,0 +1,69 @@
+#second {
+
+  position: relative;
+  background-image: url('../images/background1.jpg');
+
+  .title {
+    text-align: center;
+    border: 3px solid black;
+    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 99%;
+  }
+
+  #text {
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+
+  .one {
+    margin-top: 70px;
+    .big:first-of-type {
+      background-image: url('../images/cycling6.jpg');
+      background-size: cover;
+    }
+
+    .news:nth-of-type(2) {
+      background-image: url('../images/cycling1.jpg');
+    }
+
+    .news:nth-of-type(3) {
+      background-image: url('../images/cycling4.jpg');
+      margin-top: 4px;
+    }
+  }
+
+  .big {
+    height: 390px;
+    width: 48%;
+    float: left;
+    margin-top: 30px;
+    border: 3px solid black;
+  }
+
+  .news {
+    float: left;
+    margin-top: 30px;
+    height: 190px;
+    border: 3px solid black;
+    background-size: cover;
+    width: 48%;
+    margin-left: 35px;
+  }
+
+  .text {
+    margin-top: 210px;
+    padding: 2px;
+    display: none;
+    color: white;
+  }
+
+  .footer {
+    width: 92.3%;
+    border: 3px solid black;
+    position: absolute;
+    bottom: 30px;
+  }
+}

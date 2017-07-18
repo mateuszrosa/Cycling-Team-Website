@@ -1,0 +1,42 @@
+#first {
+  .container {
+    position: relative;
+    height: 100%;
+  }
+    background-image: url('../images/wall1.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+      img {
+        display: block;
+        margin: 0 auto;
+        transform: scale(0.75);
+      }
+        #ul {
+          width: 99.5%;
+          text-align: center;
+          border: 3px solid black;
+            .center {
+              padding-left: 0;
+                li {
+                 display: inline;
+                 text-align: center;
+                 padding-left: 20px;
+                 padding-right: 20px;
+                 margin-left: 0;
+                 font-size: 45px;
+                 font-weight: 800;
+        }
+      }
+      li:first-of-type {
+        margin-left: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      a:hover {
+        color: #fff;
+    }
+  }
+}

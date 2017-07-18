@@ -1,0 +1,39 @@
+@import 'grid';
+@import 'first';
+@import 'second';
+@import 'third';
+@import 'fourth';
+@import 'fifth';
+
+body {
+}
+
+#first {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+#second {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+
+}
+
+#third {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+}
+
+#fourth {
+  width: 100%;
+  height: 100vh;
+  // background-color: purple;
+}
+#fifth {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+}
