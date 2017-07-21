@@ -16,6 +16,7 @@
   #text {
     margin-top: 40px;
     margin: 0 auto;
+    margin: auto;
   }
 
   .one {
@@ -41,6 +42,7 @@
     float: left;
     margin-top: 30px;
     border: 3px solid black;
+    position: relative;
   }
 
   .news {
@@ -51,13 +53,16 @@
     background-size: cover;
     width: 48%;
     margin-left: 35px;
+    position: relative;
   }
 
   .text {
-    margin-top: 210px;
+    position: absolute;
+    bottom: 0;
     padding: 2px;
     display: none;
-    color: white;
+    color: green;
+    font-weight: 800;
   }
 
   .footer {
