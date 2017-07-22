@@ -48,14 +48,11 @@ lis[0].classList.add('visible');
 
 let images = document.querySelectorAll('#second .infos')
 let news = document.querySelectorAll('#second .text');
-console.log(news);
-console.log(images);
 
 
   for(let i=0; i<images.length; i++) {
     images[i].addEventListener('click', function() {
       console.log('click');
-      //  news[i].style.display = 'block';
         if(news[i].style.display === 'block') {
           news[i].style.display = 'none';
         } else {

@@ -1,7 +1,7 @@
 #second {
 
   position: relative;
-  background-image: url('../images/cyclingroad.jpg');
+  background-image: url('../images/background1.jpg');
 
   .title {
     text-align: center;
@@ -20,7 +20,7 @@
   }
 
   .one {
-    margin-top: 70px;
+    margin-top: 140px;
     .big:first-of-type {
       background-image: url('../images/cycling6.jpg');
       background-size: cover;
@@ -61,8 +61,15 @@
     bottom: 0;
     padding: 2px;
     display: none;
-    color: green;
+    color: #fff;
+    font-size: 1em;
     font-weight: 800;
+    background: #000;
+    opacity: 0.5;
+    h3 {
+      color: yellow;
+      margin-bottom: 0;
+    }
   }
 
   .footer {
