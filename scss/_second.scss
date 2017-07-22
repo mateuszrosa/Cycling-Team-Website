@@ -17,10 +17,16 @@
     margin-top: 40px;
     margin: 0 auto;
     margin: auto;
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 35px;
+        margin-top: 0;
+      }
   }
 
   .one {
-    margin-top: 140px;
+    margin-top: 115px;
     .big:first-of-type {
       background-image: url('../images/cycling6.jpg');
       background-size: cover;
@@ -37,7 +43,7 @@
   }
 
   .big {
-    height: 390px;
+    height: 450px;
     width: 48%;
     float: left;
     margin-top: 30px;
@@ -48,7 +54,7 @@
   .news {
     float: left;
     margin-top: 30px;
-    height: 190px;
+    height: 220px;
     border: 3px solid black;
     background-size: cover;
     width: 48%;
@@ -62,7 +68,7 @@
     padding: 2px;
     display: none;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 800;
     background: #000;
     opacity: 0.5;
