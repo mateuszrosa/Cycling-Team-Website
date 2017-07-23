@@ -97,6 +97,32 @@
     width: 100%;
     display: none;
     h1 {
+      font-size: 2vw;
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -80px;
+      left: 0;
+      right: 0;
+      color: white;
+      z-index: 20;
+    }
+    h2 {
+      font-size: 2vw;
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -80px;
+      left: 160px;
+      right: 0;
+      color: white;
+      z-index: 20;
+    }
+  }
+  .info1 {
+    width: 100%;
+    // display: none;
+    h1 {
       font-size: 3vw;
       display: block;
       margin: 0 auto;
