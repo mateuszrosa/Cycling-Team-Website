@@ -62,4 +62,25 @@ let news = document.querySelectorAll('#second .text');
     })
   }
 
+  let textarea = document.querySelector('textarea');
+  let name = document.querySelector('input');
+  let surname = document.querySelector('input:nth-of-type(2)');
+  let email = document.querySelector('input:nth-of-type(3)');
+  let submit = document.querySelector('input:last-of-type');
+
+  submit.addEventListener('click', function(event) {
+    if(textarea.value.length == 0) {
+      prompt('Wpisz wiadomość');
+    } else if(name.value.length == 0) {
+      prompt('Wpisz imię');
+    } else if(surname.value.length == 0) {
+      prompt('Wpisz nazwisko');
+    } else if(email.value.indexOf("@") == -1) {
+      prompt('Email musi zawierać znak @');
+    } else if(email.value.length == 0) {
+      prompt('Wpisz email');
+    }
+  })
+
+
 })
