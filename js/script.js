@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
   for(let i=0; i<img.length; i++) {
     img[i].addEventListener('click', function() {
-      info[i].style.display = 'block';
-      // if(info[i].style.display === 'block') {
-      //   info[i].style.display = 'none'
-      // }
+      if(info[i].style.display === 'block') {
+        info[i].style.display = 'none';
+      } else {
+        info[i].style.display = 'block';
+      }
     })
   }
 
