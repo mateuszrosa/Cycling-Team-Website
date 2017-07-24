@@ -1,21 +1,38 @@
 #first {
   .container {
-    position: relative;
+    // position: relative;
     height: 100%;
+    color: white;
   }
     background-image: url('../images/wall1.jpeg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
       img {
+        color: black;
         display: block;
         margin: 0 auto;
         transform: scale(0.75);
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 50%;
+          @media (max-width: 768px) {
+            transform: scale(0.35);
+            bottom: 30%;
+          }
       }
         #ul {
+          margin-top: 50%;
+          position: relative;
           width: 99.5%;
           text-align: center;
           border: 3px solid black;
+          @media (max-width: 768px) {
+            margin-top: 60%;
+          }
             .center {
               padding-left: 0;
                 li {
@@ -26,6 +43,9 @@
                  margin-left: 0;
                  font-size: 45px;
                  font-weight: 800;
+                 @media (max-width: 768px) {
+                   font-size: 35px;
+                 }
         }
       }
       li:first-of-type {

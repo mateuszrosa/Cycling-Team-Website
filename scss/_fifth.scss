@@ -11,18 +11,31 @@
   }
   .text {
     width: 49%;
+    @media (max-width: 768px) {
+      width: 48.5%;
+    }
     textarea {
       font-size: 30px;
       width: 30vw;
+      @media (max-width: 768px) {
+        margin-left: 30px;
+        width: 300px;
+      }
     }
   }
   .input {
     width: 49%;
     margin-left: 20px;
+      @media (max-width: 768px) {
+        width: 48.5%;
+      }
     input {
       width: 300px;
       height: 35px;
       font-size: 30px;
+        @media (max-width: 768px) {
+          width: 250px;
+        }
     }
   }
   .social {

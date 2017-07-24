@@ -11,6 +11,10 @@
         margin-top: 0;
         font-size: 1em;
         margin-bottom: 5px;
+          @media (max-width: 768px) {
+            font-size: 45px;
+            margin-top: 20px;
+          }
       }
   }
 
@@ -50,8 +54,17 @@
         border-radius: 50%;
         border: 0;
         font-size: 60px;
+        @media (max-width: 768px) {
+          top:100px;
+          font-size: 40px;
+          width: 50px;
+          height: 50px;
+        }
           i {
             margin-left: -20px;
+            @media (max-width: 768px) {
+              margin-left: -14px;
+            }
           }
       }
   }
@@ -69,8 +82,17 @@
       border-radius: 50%;
       border: 0;
       font-size: 60px;
+        @media (max-width: 768px) {
+          top:100px;
+          font-size: 40px;
+          width: 50px;
+          height: 50px;
+        }
         i {
           margin-left: -5px;
+          @media (max-width: 768px) {
+            margin-left: -2px;
+          }
         }
     }
   }
@@ -111,6 +133,10 @@
       left: 0;
       right: 0;
       color: white;
+      @media (max-width: 768px) {
+        bottom: 150px;
+        font-size: 25px;
+      }
     }
     p:last-of-type {
       font-size: 2vw;
@@ -121,6 +147,10 @@
       left: 160px;
       right: 0;
       color: white;
+        @media (max-width: 768px) {
+          bottom: 150px;
+          font-size: 25px;
+        }
     }
   }
   .info1 {
@@ -135,6 +165,10 @@
       left: 0;
       right: 0;
       color: white;
+      @media (max-width: 768px) {
+        top: 315px;
+        font-size: 30px;
+      }
     }
   }
 }

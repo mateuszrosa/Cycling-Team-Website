@@ -80,6 +80,8 @@ let news = document.querySelectorAll('#second .text');
       alert('Email musi zawierać znak @');
     } else if(email.value.length == 0) {
       alert('Wpisz email');
+    } else {
+      alert('Wiadomość została wysłana');
     }
   })
 
