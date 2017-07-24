@@ -71,15 +71,15 @@ let news = document.querySelectorAll('#second .text');
 
   submit.addEventListener('click', function(event) {
     if(textarea.value.length == 0) {
-      prompt('Wpisz wiadomość');
+      alert('Wpisz wiadomość');
     } else if(name.value.length == 0) {
-      prompt('Wpisz imię');
+      alert('Wpisz imię');
     } else if(surname.value.length == 0) {
-      prompt('Wpisz nazwisko');
+      alert('Wpisz nazwisko');
     } else if(email.value.indexOf("@") == -1) {
-      prompt('Email musi zawierać znak @');
+      alert('Email musi zawierać znak @');
     } else if(email.value.length == 0) {
-      prompt('Wpisz email');
+      alert('Wpisz email');
     }
   })
 
