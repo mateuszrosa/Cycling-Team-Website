@@ -102,7 +102,7 @@
   .info {
     width: 100%;
     display: none;
-    h1 {
+    p {
       font-size: 2vw;
       display: block;
       margin: 0 auto;
@@ -111,9 +111,8 @@
       left: 0;
       right: 0;
       color: white;
-      z-index: 20;
     }
-    h2 {
+    p:last-of-type {
       font-size: 2vw;
       display: block;
       margin: 0 auto;
@@ -122,22 +121,20 @@
       left: 160px;
       right: 0;
       color: white;
-      z-index: 20;
     }
   }
   .info1 {
     width: 100%;
-    // display: none;
     h1 {
       font-size: 3vw;
       display: block;
       margin: 0 auto;
       position: absolute;
       bottom: -30px;
+      top: 505px;
       left: 0;
       right: 0;
       color: white;
-      z-index: 20;
     }
   }
 }
