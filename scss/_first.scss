@@ -1,6 +1,5 @@
 #first {
   .container {
-    // position: relative;
     height: 100%;
     color: white;
   }
@@ -21,7 +20,7 @@
         bottom: 50%;
           @media (max-width: 768px) {
             transform: scale(0.35);
-            bottom: 30%;
+            top: 100px;
           }
       }
         #ul {
@@ -31,7 +30,8 @@
           text-align: center;
           border: 3px solid black;
           @media (max-width: 768px) {
-            margin-top: 60%;
+            margin-top: 460px;
+            height: 70px;
           }
             .center {
               padding-left: 0;
