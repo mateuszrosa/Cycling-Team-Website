@@ -53,6 +53,12 @@
       "css": "menu",
       "code": 59394,
       "src": "entypo"
+    },
+    {
+      "uid": "rrhco7mfj6ro9yzhe4a1rbln9flw47re",
+      "css": "cancel",
+      "code": 59395,
+      "src": "modernpics"
     }
   ]
 }

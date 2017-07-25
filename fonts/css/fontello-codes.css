@@ -2,6 +2,7 @@
 .icon-left-open:before { content: '\e800'; } /* '' */
 .icon-right-open:before { content: '\e801'; } /* '' */
 .icon-menu:before { content: '\e802'; } /* '' */
+.icon-cancel:before { content: '\e803'; } /* '' */
 .icon-angle-double-up:before { content: '\f102'; } /* '' */
 .icon-youtube-squared:before { content: '\f166'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
