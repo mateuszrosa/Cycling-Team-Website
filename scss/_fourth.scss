@@ -69,6 +69,7 @@
             font-size: 40px;
             width: 50px;
             height: 50px;
+            right: 30px;
           }
           i {
             margin-left: -20px;
@@ -100,6 +101,7 @@
           font-size: 40px;
           width: 50px;
           height: 50px;
+          left: 36px;
         }
         i {
           margin-left: -5px;
@@ -125,6 +127,9 @@
          border: 3px solid #fff;
            @media (max-width: 1024px) {
              transform: scale(0.9);
+           }
+           @media (max-width: 768px) {
+             transform: scale(1.2);
            }
        }
      }
@@ -155,7 +160,7 @@
           font-size: 2.5vw;
         }
         @media (max-width: 768px) {
-          bottom: 150px;
+          bottom: 125px;
           font-size: 25px;
         }
     }
@@ -174,7 +179,7 @@
           font-size: 2.5vw;
         }
         @media (max-width: 768px) {
-          bottom: 150px;
+          bottom: 125px;
           font-size: 25px;
         }
     }
@@ -197,8 +202,8 @@
           font-size: 4vw;
         }
         @media (max-width: 768px) {
-          top: 315px;
-          font-size: 30px;
+          top: 340px;
+          font-size: 34px;
         }
     }
   }
