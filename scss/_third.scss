@@ -1,8 +1,9 @@
 #third {
   background-image: url('../images/background.jpg');
   z-index: 2;
-    @media (max-width: 768px) {
-      background-size: coVER;
+
+    @media (max-width: 1024px) {
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -38,8 +39,11 @@ h1 {
       text-align: left;
       color: #fff;
       font-size: 25px;
-      @media (max-width: 768px) {
-        font-size: 20px;
-      }
+        @media (max-width: 1024px) {
+          font-size: 22px;
+        }
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
   }
 }

@@ -2,6 +2,13 @@
   background-image: url('../images/road.jpg');
   background-color: black;
   color: #fff;
+
+  .container .row .col-8 {
+    @media (max-width: 1024px) {
+      width: 99.5%;
+    }
+  }
+
   .row {
     margin-top: 0;
   }
@@ -54,12 +61,15 @@
         border-radius: 50%;
         border: 0;
         font-size: 60px;
-        @media (max-width: 768px) {
-          top:100px;
-          font-size: 40px;
-          width: 50px;
-          height: 50px;
-        }
+          @media (max-width: 1024px) {
+            right: -20px;
+          }
+          @media (max-width: 768px) {
+            top:100px;
+            font-size: 40px;
+            width: 50px;
+            height: 50px;
+          }
           i {
             margin-left: -20px;
             @media (max-width: 768px) {
@@ -82,6 +92,9 @@
       border-radius: 50%;
       border: 0;
       font-size: 60px;
+        @media (max-width: 1024px) {
+          left: -14px;
+        }
         @media (max-width: 768px) {
           top:100px;
           font-size: 40px;
@@ -110,6 +123,9 @@
          bottom: 0;
          background-size: cover;
          border: 3px solid #fff;
+           @media (max-width: 1024px) {
+             transform: scale(0.9);
+           }
        }
      }
   }
@@ -133,10 +149,14 @@
       left: 0;
       right: 0;
       color: white;
-      @media (max-width: 768px) {
-        bottom: 150px;
-        font-size: 25px;
-      }
+        @media (max-width: 1024px) {
+          bottom: 70px;
+          left: 20px;
+        }
+        @media (max-width: 768px) {
+          bottom: 150px;
+          font-size: 25px;
+        }
     }
     p:last-of-type {
       font-size: 2vw;
@@ -147,6 +167,10 @@
       left: 160px;
       right: 0;
       color: white;
+        @media (max-width: 1024px) {
+          bottom: 70px;
+          left: 120px;
+        }
         @media (max-width: 768px) {
           bottom: 150px;
           font-size: 25px;
@@ -165,10 +189,14 @@
       left: 0;
       right: 0;
       color: white;
-      @media (max-width: 768px) {
-        top: 315px;
-        font-size: 30px;
-      }
+        @media (max-width: 1024px) {
+          top: 400px;
+          left: 20px;
+        }
+        @media (max-width: 768px) {
+          top: 315px;
+          font-size: 30px;
+        }
     }
   }
 }
