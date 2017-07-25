@@ -81,6 +81,10 @@ let news = document.querySelectorAll('#second .text');
     } else if(email.value.length == 0) {
       alert('Wpisz email');
     } else {
+      textarea.value = '';
+      name.value = '';
+      surname.value = '';
+      email.value = '';
       alert('Wiadomość została wysłana');
     }
   })
