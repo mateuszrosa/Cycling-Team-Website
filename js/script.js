@@ -89,15 +89,10 @@ let news = document.querySelectorAll('#second .text');
     }
   })
 
-  let hamburger = document.querySelector('.hamburger');
-  let mobile = document.querySelector('#mobilemenu');
-
-    hamburger.addEventListener('click', function() {
-      if(mobile.style.display == 'block') {
-        mobile.style.display = 'none';
-      } else {
-        mobile.style.display = 'block';
-      }
-    })
+    $(document).ready(function(){
+      $('.hamburger').click(function(){
+        $('#mobilemenu').slideToggle();
+      })
+  })
 
 })

@@ -11,6 +11,10 @@
         @media (max-width: 1024px) {
           width: 99.5%;
         }
+        @media (max-width: 425px) {
+          width: 98.5%;
+          margin-top: -45px;
+        }
   }
   .text {
     width: 49%;
@@ -28,6 +32,11 @@
           margin-left: 30px;
           width: 300px;
         }
+        @media (max-width: 425px) {
+          height: 300px;
+          margin-left: 51px;
+          margin-top: -30px;
+        }
     }
   }
   .input {
@@ -35,6 +44,9 @@
     margin-left: 20px;
       @media (max-width: 1024px) {
         width: 48.5%;
+      }
+      @media (max-width: 425px) {
+        width: 100%;
       }
     input {
       width: 300px;
@@ -46,12 +58,33 @@
         @media (max-width: 768px) {
           width: 250px;
         }
+        @media (max-width: 425px) {
+          width: 302px;
+          height: 35px;
+          margin-left: 30px;
+          font-size: 30px;
+          margin-bottom: -4px;
+        }
+    }
+      @media (max-width: 425px) {
+        input:first-of-type {
+          margin-top: 20px;
+        }
+      }
+      @media (max-width: 425px) {
+        input:last-of-type {
+          width: 305px;
+      }
     }
   }
+
   .social {
     width: 24%;
     height: 143px;
     font-size: 70px;
+      @media (max-width: 425px) {
+        font-size: 50px;
+      }
   }
 
   .fb {

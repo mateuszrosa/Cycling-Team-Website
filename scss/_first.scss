@@ -14,17 +14,15 @@
       }
   }
 
+  .cancel {
+    font-size: 50px;
+    margin-left: 390px;
+  }
+
   #mobilemenu {
-    margin-top: 20px;
     width:450px;
-    margin:0 auto;
     margin-left: -40px;
     display: none;
-    animation-duration: 0.5s;
-    animation-name: showing;
-    animation-fill-mode: forwards;
-    animation-delay: 0;
-    animation-timing-function: linear;
       ul {
         list-style-type: none;
         text-align: center;
@@ -51,32 +49,6 @@
       }
   }
 
-  .hide {
-    animation-duration: 0.5s;
-    animation-name: hiding;
-    animation-fill-mode: forwards;
-    animation-delay: 0;
-    animation-timing-function: linear;
-  }
-
-  @keyframes showing {
-    from {
-      margin-top: -100%;
-    }
-    to {
-      margin-top: 15px;
-    }
-  }
-
-  @keyframes hiding {
-    from {
-      margin-top: 15px;
-    }
-    to {
-      margin-top: -100%;
-    }
-  }
-
     background-image: url('../images/wall1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +69,7 @@
             top: 100px;
           }
           @media (max-width: 425px) {
-            top: 300px;
+            top: 240px;
             left: -85px;
           }
       }
