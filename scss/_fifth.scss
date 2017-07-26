@@ -44,8 +44,8 @@
           margin-left: 25px;
         }
         @media (max-width: 320px) {
-          margin-left: 20px;
-          width: 260px;
+          margin-left: -1px;
+          width: 255px;
         }
     }
   }
@@ -79,8 +79,8 @@
           margin-left: 6px;
         }
         @media (max-width: 320px) {
-          margin-left: 0;
-          width: 260px;
+          margin-left: -21px;
+          width: 257px;
         }
     }
       input:first-of-type {
@@ -110,7 +110,7 @@
         margin-left: -2px;
       }
       @media (max-width: 320px) {
-        margin-left: -5px;
+        margin-left: 0;
       }
   }
 
@@ -119,12 +119,18 @@
     background-color: #4668b6;
     position: absolute;
     bottom: 0;
+      @media (max-width: 320px) {
+        margin-left: -30px;
+      }
   }
   .tw {
     color: #fff;
     background-color: #3095d3;
     position: absolute;
     bottom: 0;
+    @media (max-width: 320px) {
+      margin-left: -22px;
+    }
   }
   .inst {
     color: #fff;
@@ -132,11 +138,17 @@
     background-size: cover;
     position: absolute;
     bottom: 0;
+    @media (max-width: 320px) {
+      margin-left: -14px;
+    }
   }
   .yt {
     color: #fff;
     background-color: #d94348;
     position: absolute;
     bottom: 0;
+    @media (max-width: 320px) {
+      margin-left: -6px;
+    }
   }
 }
