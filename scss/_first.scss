@@ -23,6 +23,9 @@
     width:450px;
     margin-left: -40px;
     display: none;
+      @media (max-width: 375px) {
+        width:400px;
+      }
       ul {
         list-style-type: none;
         text-align: center;
@@ -71,6 +74,10 @@
           @media (max-width: 425px) {
             top: 240px;
             left: -85px;
+          }
+          @media (max-width: 375px) {
+            top: 240px;
+            left: -105px;
           }
       }
         #ul {
