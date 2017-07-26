@@ -21,13 +21,15 @@
 
   #mobilemenu {
     width:450px;
-    margin-left: -40px;
+    margin-left: -72px;
     display: none;
       @media (max-width: 375px) {
         width:400px;
+        margin-left: -68px;
       }
       @media (max-width: 320px) {
         width:345px;
+        margin-left: -63px;
       }
       ul {
         list-style-type: none;

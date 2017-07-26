@@ -78,14 +78,14 @@
             right: 30px;
           }
           @media (max-width: 425px) {
-            right: 42px;
+            right: 63px;
             top: -10px;
           }
           @media (max-width: 320px) {
             width: 40px;
             height: 40px;
             font-size: 35px;
-            right: 50px;
+            right: 54px;
           }
           i {
             margin-left: -20px;
@@ -120,14 +120,14 @@
           left: 36px;
         }
         @media (max-width: 425px) {
-          left: 47px;
+          left: 69px;
           top: -10px;
         }
         @media (max-width: 320px ) {
           width: 40px;
           height: 40px;
           font-size: 35px;
-          left: 56px;
+          left: 59px;
         }
         i {
           margin-left: -5px;
@@ -162,11 +162,13 @@
            }
            @media (max-width: 425px) {
              margin-top: -80px;
-             transform: scale(1.5);
+             transform: scale(2);
+             height: 150px;
            }
            @media (max-width: 320px) {
              margin-top: -80px;
-             transform: scale(1.8);
+             transform: scale(2);
+             height: 150px;
            }
        }
      }
@@ -207,8 +209,9 @@
           font-size: 5vw;
         }
         @media (max-width: 320px) {
-          bottom: 360px;
-          left: -45px;
+          bottom: 310px;
+          left: -50px;
+          font-size: 6vw;
         }
     }
     p:last-of-type {
@@ -235,8 +238,9 @@
           font-size: 5vw;
         }
         @media (max-width: 320px) {
-          bottom: 360px;
+          bottom: 310px;
           left: 30px;
+          font-size: 6vw;
         }
     }
   }
@@ -261,15 +265,19 @@
           top: 340px;
           font-size: 34px;
         }
+        @media (max-width: 375px) {
+          left: 20px;
+        }
         @media (max-width: 425px) {
           width: 250px;
           top: 160px;
           font-size: 25px;
-          left: -20px;
+          left: -50px;
         }
         @media (max-width: 320px) {
-          top: 120px;
-          left: -45px;
+          top: 173px;
+          left: -50px;
+          font-size: 8vw;
         }
     }
   }
