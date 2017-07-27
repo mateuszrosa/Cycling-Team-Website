@@ -1,7 +1,6 @@
 #first {
   .container {
     height: 100%;
-    color: white;
   }
 
   .hamburger {
@@ -12,11 +11,6 @@
       @media (max-width: 425px) {
         display: block;
       }
-  }
-
-  .cancel {
-    font-size: 50px;
-    margin-left: 390px;
   }
 
   #mobilemenu {
